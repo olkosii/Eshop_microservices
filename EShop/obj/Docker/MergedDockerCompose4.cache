@@ -1,8 +1,28 @@
-name: dockercompose16138218680619938113
+name: dockercompose2300363750785774109
 services:
+  basketdb:
+    container_name: basketdb
+    environment:
+      POSTGRES_DB: BasketDb
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_USER: postgres
+    image: postgres
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 5432
+        published: "5433"
+        protocol: tcp
+    restart: always
+    volumes:
+      - type: volume
+        source: postgres_basket
+        target: /var/lib/postgresql/data
+        volume: {}
   catalog.api:
     build:
-      context: C:\Work\Study\EShop
+      context: C:\Work\Study\Eshop_microservices\EShop
       dockerfile: src/Services/Catalog/Catalog.API/Dockerfile
       args:
         BUILD_CONFIGURATION: Release
@@ -106,9 +126,22 @@ services:
         source: postgres_catalog
         target: /var/lib/postgresql/data
         volume: {}
+  distributedcache:
+    container_name: distributedcache
+    image: redis
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 6379
+        published: "6379"
+        protocol: tcp
+    restart: always
 networks:
   default:
-    name: dockercompose16138218680619938113_default
+    name: dockercompose2300363750785774109_default
 volumes:
+  postgres_basket:
+    name: dockercompose2300363750785774109_postgres_basket
   postgres_catalog:
-    name: dockercompose16138218680619938113_postgres_catalog
+    name: dockercompose2300363750785774109_postgres_catalog
