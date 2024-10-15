@@ -154,3 +154,9 @@ C:\Work\Study\Eshop_microservices\EShop\bin\Debug\SQLitePCLRaw.core.dll
 C:\Work\Study\Eshop_microservices\EShop\bin\Debug\Discount.Grpc.pdb
 C:\Work\Study\Eshop_microservices\EShop\bin\Debug\Grpc.Net.ClientFactory.dll
 C:\Work\Study\Eshop_microservices\EShop\bin\Debug\Grpc.Net.Client.dll
+C:\Work\Study\Eshop_microservices\EShop\bin\Debug\MassTransit.Abstractions.dll
+C:\Work\Study\Eshop_microservices\EShop\bin\Debug\BuildingBlocks.Messaging.dll
+C:\Work\Study\Eshop_microservices\EShop\bin\Debug\MassTransit.RabbitMqTransport.dll
+C:\Work\Study\Eshop_microservices\EShop\bin\Debug\MassTransit.dll
+C:\Work\Study\Eshop_microservices\EShop\bin\Debug\RabbitMQ.Client.dll
+C:\Work\Study\Eshop_microservices\EShop\bin\Debug\BuildingBlocks.Messaging.pdb

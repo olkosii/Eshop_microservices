@@ -1,9 +1,8 @@
-﻿
-using Ordering.Domain.Abstractions;
+﻿using Ordering.Domain.Abstractions;
 
-namespace Ordering.Application.Orders.EventHandlers
+namespace Ordering.Application.Orders.EventHandlers.Domain
 {
-    public class OrderUpdatedDomainEvent(ILogger<OrderUpdatedDomainEvent> logger) : INotificationHandler<OrderUpdatedEvent>
+    public class OrderUpdatedDomainEventHandler(ILogger<OrderUpdatedDomainEventHandler> logger) : INotificationHandler<OrderUpdatedEvent>
     {
         public Task Handle(OrderUpdatedEvent domainEvent, CancellationToken cancellationToken)
         {

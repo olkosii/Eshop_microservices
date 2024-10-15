@@ -3,6 +3,7 @@ global using Marten;
 global using Carter;
 global using MediatR;
 global using Basket.API.Data;
+global using Basket.API.Dtos;
 global using FluentValidation;
 global using Basket.API.Models;
 global using BuildingBlocks.CQRS;

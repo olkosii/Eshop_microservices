@@ -189,3 +189,11 @@ C:\Work\Study\Eshop_microservices\EShop\src\Services\Basket\Basket.API\bin\Debug
 C:\Work\Study\Eshop_microservices\EShop\src\Services\Basket\Basket.API\bin\Debug\net8.0\Grpc.Net.Client.dll
 C:\Work\Study\Eshop_microservices\EShop\src\Services\Basket\Basket.API\bin\Debug\net8.0\Grpc.Net.ClientFactory.dll
 C:\Work\Study\Eshop_microservices\EShop\src\Services\Basket\Basket.API\bin\Debug\net8.0\Grpc.Net.Common.dll
+C:\Work\Study\Eshop_microservices\EShop\src\Services\Basket\Basket.API\bin\Debug\net8.0\MassTransit.dll
+C:\Work\Study\Eshop_microservices\EShop\src\Services\Basket\Basket.API\bin\Debug\net8.0\MassTransit.Abstractions.dll
+C:\Work\Study\Eshop_microservices\EShop\src\Services\Basket\Basket.API\bin\Debug\net8.0\MassTransit.RabbitMqTransport.dll
+C:\Work\Study\Eshop_microservices\EShop\src\Services\Basket\Basket.API\bin\Debug\net8.0\Microsoft.FeatureManagement.dll
+C:\Work\Study\Eshop_microservices\EShop\src\Services\Basket\Basket.API\bin\Debug\net8.0\Microsoft.FeatureManagement.AspNetCore.dll
+C:\Work\Study\Eshop_microservices\EShop\src\Services\Basket\Basket.API\bin\Debug\net8.0\RabbitMQ.Client.dll
+C:\Work\Study\Eshop_microservices\EShop\src\Services\Basket\Basket.API\bin\Debug\net8.0\BuildingBlocks.Messaging.dll
+C:\Work\Study\Eshop_microservices\EShop\src\Services\Basket\Basket.API\bin\Debug\net8.0\BuildingBlocks.Messaging.pdb
