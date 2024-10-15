@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Work\\Study\\Eshop_microservices\\EShop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AD0A1457-891E-4239-9376-A79F75A29F6E}|docker-compose.dcproj|c:\\work\\study\\eshop_microservices\\eshop\\docker-compose.override.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{AD0A1457-891E-4239-9376-A79F75A29F6E}|docker-compose.dcproj|solutionrelative:docker-compose.override.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{609DD21A-D6BF-4FE8-8292-E8461F93C75C}|src\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj|c:\\work\\study\\eshop_microservices\\eshop\\src\\services\\ordering\\ordering.domain\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{609DD21A-D6BF-4FE8-8292-E8461F93C75C}|src\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj|solutionrelative:src\\services\\ordering\\ordering.domain\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD0A1457-891E-4239-9376-A79F75A29F6E}|docker-compose.dcproj|c:\\work\\study\\eshop_microservices\\eshop\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{AD0A1457-891E-4239-9376-A79F75A29F6E}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55FA4E97-6E83-4014-8348-242884D27271}|src\\Services\\Ordering\\Ordering.Application\\Ordering.Application.csproj|c:\\work\\study\\eshop_microservices\\eshop\\src\\services\\ordering\\ordering.application\\orders\\eventhandlers\\domain\\ordercreateddomaineventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55FA4E97-6E83-4014-8348-242884D27271}|src\\Services\\Ordering\\Ordering.Application\\Ordering.Application.csproj|solutionrelative:src\\services\\ordering\\ordering.application\\orders\\eventhandlers\\domain\\ordercreateddomaineventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{55FA4E97-6E83-4014-8348-242884D27271}|src\\Services\\Ordering\\Ordering.Application\\Ordering.Application.csproj|c:\\work\\study\\eshop_microservices\\eshop\\src\\services\\ordering\\ordering.application\\orders\\commands\\createorder\\createordercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55FA4E97-6E83-4014-8348-242884D27271}|src\\Services\\Ordering\\Ordering.Application\\Ordering.Application.csproj|solutionrelative:src\\services\\ordering\\ordering.application\\orders\\commands\\createorder\\createordercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,34 +18,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "docker-compose.override.yml",
-              "DocumentMoniker": "C:\\Work\\Study\\Eshop_microservices\\EShop\\docker-compose.override.yml",
-              "RelativeDocumentMoniker": "docker-compose.override.yml",
-              "ToolTip": "C:\\Work\\Study\\Eshop_microservices\\EShop\\docker-compose.override.yml",
-              "RelativeToolTip": "docker-compose.override.yml",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAADMAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2024-10-14T12:59:05.453Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "docker-compose.yml",
-              "DocumentMoniker": "C:\\Work\\Study\\Eshop_microservices\\EShop\\docker-compose.yml",
-              "RelativeDocumentMoniker": "docker-compose.yml",
-              "ToolTip": "C:\\Work\\Study\\Eshop_microservices\\EShop\\docker-compose.yml",
-              "RelativeToolTip": "docker-compose.yml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2024-10-14T12:57:42.459Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -72,15 +42,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "OrderCreatedDomainEventHandler.cs",
-              "DocumentMoniker": "C:\\Work\\Study\\Eshop_microservices\\EShop\\src\\Services\\Ordering\\Ordering.Application\\Orders\\EventHandlers\\Domain\\OrderCreatedDomainEventHandler.cs",
-              "RelativeDocumentMoniker": "src\\Services\\Ordering\\Ordering.Application\\Orders\\EventHandlers\\Domain\\OrderCreatedDomainEventHandler.cs",
-              "ToolTip": "C:\\Work\\Study\\Eshop_microservices\\EShop\\src\\Services\\Ordering\\Ordering.Application\\Orders\\EventHandlers\\Domain\\OrderCreatedDomainEventHandler.cs",
-              "RelativeToolTip": "src\\Services\\Ordering\\Ordering.Application\\Orders\\EventHandlers\\Domain\\OrderCreatedDomainEventHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABWAAAA",
+              "DocumentIndex": 0,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Work\\Study\\Eshop_microservices\\EShop\\src\\Services\\Ordering\\Ordering.Domain\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "src\\Services\\Ordering\\Ordering.Domain\\Models\\Order.cs",
+              "ToolTip": "C:\\Work\\Study\\Eshop_microservices\\EShop\\src\\Services\\Ordering\\Ordering.Domain\\Models\\Order.cs",
+              "RelativeToolTip": "src\\Services\\Ordering\\Ordering.Domain\\Models\\Order.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAADwvyEAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T10:40:48.267Z",
+              "WhenOpened": "2024-10-15T08:51:24.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CreateOrderCommandHandler.cs",
+              "DocumentMoniker": "C:\\Work\\Study\\Eshop_microservices\\EShop\\src\\Services\\Ordering\\Ordering.Application\\Orders\\Commands\\CreateOrder\\CreateOrderCommandHandler.cs",
+              "RelativeDocumentMoniker": "src\\Services\\Ordering\\Ordering.Application\\Orders\\Commands\\CreateOrder\\CreateOrderCommandHandler.cs",
+              "ToolTip": "C:\\Work\\Study\\Eshop_microservices\\EShop\\src\\Services\\Ordering\\Ordering.Application\\Orders\\Commands\\CreateOrder\\CreateOrderCommandHandler.cs",
+              "RelativeToolTip": "src\\Services\\Ordering\\Ordering.Application\\Orders\\Commands\\CreateOrder\\CreateOrderCommandHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T08:51:03.074Z",
               "EditorCaption": ""
             }
           ]
